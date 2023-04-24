@@ -1,0 +1,15 @@
+.header1{
+    position: fixed;
+    top: 0;
+    display: flex;
+  
+}
+
+.header1 img{
+    margin: auto;
+    height: 50px;
+    width: 200px;
+}
+.p1{
+    font-size: 20px;
+}
