@@ -1,0 +1,43 @@
+.header1{
+    position: fixed;
+    top: 0;
+    display: flex;
+    background-color: white;
+    width: 100%;
+
+  
+  
+}
+
+
+.header1 img{
+    margin: auto;
+    height: 50px;
+    width: 200px;
+}
+.p1{
+    font-size: 20px;
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+
+}
+.container img{
+    padding: 100px;
+    padding-top: 100px;
+}
+
+
+#nike2{
+    width: 500px;
+    height: 400px;
+}
+#stussy2{
+    width: 600px;
+    height: 350px;
+}
+#nike1
