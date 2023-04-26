@@ -5,6 +5,7 @@
     background-color: white;
     width: 100%;
 
+
   
   
 }
@@ -22,22 +23,72 @@
     justify-content: center;
     text-align: center;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 210px;
     display: flex;
 
-}
-.container img{
-    padding: 100px;
-    padding-top: 100px;
 }
 
 
 #nike2{
     width: 500px;
     height: 400px;
+    margin-bottom: 200px;
+
 }
 #stussy2{
     width: 600px;
     height: 350px;
+    border: solid black 1px;
 }
-#nike1
+#nike1{
+    width: 300px;
+    height: 320px;
+    margin-bottom: 200px;
+}
+#stussy{
+    width: 400px;
+    height: 150px;
+
+}
+
+footer{
+    text-align: center;
+    font-size: 13px;
+    bottom: 0;
+    margin-top: 50px;
+ 
+}
+.dropbtn {
+    color: black;
+    font-size: 16px;
+    border: none;
+  } 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 200px
+ 
+
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    text-decoration: underline;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+  .dropbtn:hover{
+    text-decoration: underline;
+}
+  
