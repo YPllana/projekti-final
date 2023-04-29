@@ -25,6 +25,7 @@
     margin: auto;
     margin-top: 210px;
     display: flex;
+    margin-left: 8%;
 
 }
 
@@ -109,17 +110,5 @@
   .dropbtn:hover{
     text-decoration: underline;
 }
-.overlay {
-    position: absolute;
-    opacity: 0;
-    transition: .5s ease;
-    background-color:black;
-    margin-top: -520px;
-    margin-left: 140px;
-    width: 450px;
-    height: 350px;
-  }
-  .cl1:hover .overlay {
-    opacity: 1;
-  }
-  
+
+
