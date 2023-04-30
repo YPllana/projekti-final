@@ -110,5 +110,103 @@
   .dropbtn:hover{
     text-decoration: underline;
 }
+.overlay{
+    background-color: rgb(27, 27, 27, .5);
+    position: absolute;
+    top: 200px;
+    bottom:  50px;
+    left:  200px;
+    right:  50px;
+    height: 50%;
+    width: 30%;
+    opacity: 0;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 
+.container2:hover .overlay{
+    opacity: 1;
 
+}
+.text a{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: none ;
+
+}
+
+.text a:hover{
+    text-decoration: underline;
+}
+
+.overlay2{
+    background-color: rgb(27, 27, 27, .5);
+    position: absolute;
+    top: 210px;
+    bottom:  100px;
+    left:  870px;
+    right:  100px;
+    height: 55%;
+    width: 33%;
+    opacity: 0;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container3:hover .overlay2{
+    opacity: 1;
+
+}
+.overlay3{
+    background-color: rgb(27, 27, 27, .5);
+    position: absolute;
+    top: 734px;
+    bottom:  100px;
+    left:  128px;
+    right:  100px;
+    height: 48%;
+    width: 39%;
+    opacity: 0;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container4:hover .overlay3{
+    opacity: 1;
+
+}
+.overlay4{
+    background-color: rgb(27, 27, 27, .5);
+    position: absolute;
+    top: 734px;
+    bottom:  100px;
+    left:  888px;
+    right:  100px;
+    height: 45%;
+    width: 30%;
+    opacity: 0;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container5:hover .overlay4{
+    opacity: 1;
+
+}
