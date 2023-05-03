@@ -1,0 +1,108 @@
+.header1{
+    position: fixed;
+    top: 0;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    right: 0;
+    box-shadow: 2px 2px 5px 5px black;
+    margin-bottom: 50px;
+
+}
+.navigation{
+    padding: 10px;
+    position: absolute;
+    right: 150px;
+    display: flex;
+    font-size: 10px;
+}
+.navigation a{
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+.navigation a:hover{
+    text-decoration: line-through;
+    color: gray;
+    transition: 2s;
+}
+
+.header1 img{
+    margin: auto;
+    height: 50px;
+    width: 200px;
+}
+.footer{
+    text-align: center;
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    width: 1527px;
+    margin-left: -9px;
+    margin-top: 100px;
+}
+.footer h1{
+    margin-left: -1300px;
+}
+
+.footer img {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: -49px;
+    margin-right: 20px;
+}
+
+.container{
+	background-color:black ;
+	border: solid black 5px ;
+	margin: auto;
+	width: 75%;
+}
+input[type="text"], input[type="email"] {
+    width: 30%;
+    height: 46px;
+    margin-left: 130px;
+}
+input[type="text"], input[type="email"], textarea{
+	color: black;
+	background-color:white ;
+	border: none ;
+	margin-top: 6px;
+	margin-right: 10px;
+	padding-left:20px ;
+	font-size: 18px;
+}
+
+textarea {
+    height: 200px;
+    width: 98%;
+    padding-top: 24px;
+    margin-right: 20px;
+
+}
+
+input[type="submit"] {
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.big-button {
+    padding: 25px 85px;
+    color: black;
+}
+.title-box{
+	color: white;
+	text-align: center;
+}
+.big-button:hover{
+    box-shadow: 2px 5px 2px 5px grey;
+    transition: 1s;
+}

@@ -5,6 +5,7 @@
     background-color: white;
     width: 100%;
     right: 0;
+    box-shadow: 2px 2px 5px 5px black;
 
 }
 .navigation{
@@ -79,7 +80,7 @@
     padding: 5px;
 }
 .footer h1{
-    margin-left: 5px;
+    margin-left: 60px;
 }
 
 .footer img {
@@ -190,3 +191,4 @@
     opacity: 1;
 
 }
+
